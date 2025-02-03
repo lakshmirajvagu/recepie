@@ -93,16 +93,33 @@ nav{
     color: rgb(255, 255, 255);
 }
 @media (max-width: 320px) {
-    nav {
+    main{
+        margin-top: 30px; /* Adjust based on navbar height */
+    }
+    #navi {
+        display: flex;
         flex-direction: column;
-        align-items: center;
+        z-index: 10000px;
+    }
+    #abt{
+        margin-top: 0px;
+        z-index: 10000px;
+
     }
 
     #navlinks {
         display: flex;
         flex-direction: column;
         align-items: center;
+        justify-content:center; 
+        z-index: 10000px;
     }
+#cnt{
+    transform: translatey(-111=px); 
+}
+.rightbox img {
+    z-index: 0px;
+}
 
     #navlinks a {
         padding: 5px;
@@ -131,22 +148,15 @@ nav{
     #btn button {
         width: 80%;
     }
-}
-
-@media (max-width: 480px) {
-    #head {
-        font-size: 2em;
+    .rightbox img:hover{
+        transform: scale(1.01);
+        box-shadow: 0 0 10px rgba(156, 0, 0, 0.6);
+        z-index: 1px;
+        pointer-events: none; 
     }
-
-    .leftbox h2 {
-        font-size: 1.5em;
-    }
-
-    .leftbox ul {
-        font-size: 1em;
-    }
-
-    #btn button {
-        font-size: 0.9em;
+    .rightbox img{
+        z-index: 1px;
+        pointer-events: auto;
     }
 }
+
