@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+main{
+    background-color: rgb(242, 214, 248);
+}
+#navlinks a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    align-items: right;
+    padding: 10px;
+    font-size: 1.5em;
+    background-color: rgb(228, 198, 235);
+}
+nav li{
+    list-style-type: none;
+}
+nav{
+    background-color: rgb(224, 173, 236);
+    padding: 12px;
+    width: 100%;
+    position: fixed;
+    
+}
+
+#head{
+    text-align: center;
+    font-size: 2.5em;
+    padding: 10px;
+    font-display: block;
+    background-color: rgb(228, 198, 235);
+}
+#abt{
+    display: flex;
+    justify-content: right;
+    margin-top: -38px;
+}
+.navbar{
+    background-color: rgb(231, 194, 240);
+}
+#foot{
+    background-color:  rgb(231, 194, 240);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+}
+.item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftbox{
+   
+}
+.leftbox h2{
+    font-size: 1.9em;
+    padding: 10px;
+}
+.leftbox ul{
+    font-size: 1.2em;
+    padding: 10px;
+}
+.leftbox li{
+    list-style-type: none;
+}
+.rightbox img{
+   border-radius: 10px;
+}
+.rightbox img:hover{
+    transform: scale(1.01);
+    box-shadow: 0 0 10px rgba(156, 0, 0, 0.6);
+}
+#btn{
+    display: flex;
+}
+#btn button{
+    padding: 10px;
+    margin: 10px;
+    font-size: 1em;
+    background-color: rgba(157, 153, 158, 0.87);
+    border-radius: 12px;
+    
+}
+#btn button:hover{
+    background-color: rgba(157, 153, 158, 0.6);
+}
+#btn a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
