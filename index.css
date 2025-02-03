@@ -92,3 +92,61 @@ nav{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+@media (max-width: 320px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navlinks {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #navlinks a {
+        padding: 5px;
+        font-size: 1.2em;
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .item {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .leftbox, .rightbox {
+        width: 100%;
+        padding: 10px;
+    }
+
+    #btn {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #btn button {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    #head {
+        font-size: 2em;
+    }
+
+    .leftbox h2 {
+        font-size: 1.5em;
+    }
+
+    .leftbox ul {
+        font-size: 1em;
+    }
+
+    #btn button {
+        font-size: 0.9em;
+    }
+}
